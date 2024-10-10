@@ -5,6 +5,7 @@
      --bold-weight: 800px;
      --light-weight: 500px;
      --light-grey: hsl(0, 0%, 42%);
+     --dark-grey: hsl(0, 0%, 7%);
 }
 
 *,
@@ -62,7 +63,7 @@ main > img {
 
 p {
      margin-top: 15px;
-     line-height: 1.3em;
+     font-weight: 500;
      font-size: 75%;
 }
 h1 {
@@ -72,6 +73,8 @@ h1 {
 
 .card-description {
      font-size: 85%;
+     line-height: 1.5em;
+     letter-spacing: 0.2px;
      color: var(--light-grey);
 }
 
@@ -89,6 +92,7 @@ h1 {
      margin-top: 25px;
      font-size: 85%;
      font-weight: 800;
+     color: var(--dark-gray);
 }
 
 /* Adding hover ability for header */
